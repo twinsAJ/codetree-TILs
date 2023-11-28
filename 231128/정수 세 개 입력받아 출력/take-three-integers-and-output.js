@@ -1,8 +1,6 @@
 const fs = require("fs");
-let i = fs.readFileSync(0).toString();
+let input = fs.readFileSync(0).toString().split("\n");
+let a,b = (input[0]);
+let c = Number(input[1]);
 
-let a = Number(i[0]);
-let b = Number(i[2]);
-let c = Number(i[4]);
-
-console.log(a,b,c);
+console.log((a,b),c);
