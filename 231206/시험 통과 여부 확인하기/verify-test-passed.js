@@ -1,6 +1,6 @@
 const fs = require("fs");
 let n = fs.readFileSync(0).toString();
-if (n>80) {
+if (n>=80) {
     console.log("pass");
 }
 else {
