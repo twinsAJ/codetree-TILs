@@ -3,8 +3,9 @@ let input = fs.readFileSync(0).toString().trim().split(" ");
 let a = Number(input[0]);
 let b = Number(input[1]);
 
-console.log(b-a);
-
-if (a>b){
+if (a<b){
+    console.log(b-a);
+}
+else {
     console.log(a-b);
 }
