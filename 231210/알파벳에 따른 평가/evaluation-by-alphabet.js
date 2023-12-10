@@ -1,4 +1,4 @@
-const fs = require("fs");
+let fs = require("fs");
 let n = fs.readFileSync(0).toString();
 if (n === "S") {
     console.log("Superior");
