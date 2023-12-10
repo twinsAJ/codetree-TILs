@@ -8,5 +8,5 @@ if ((a%2) == 0) {
     }
 }
 if (a%2 == 1) {
-    console.log((a=1)/2);
+    console.log((a+1)/2);
 }
