@@ -6,6 +6,9 @@ if ((a%2) == 0) {
     if (b%2 == 1) {
         console.log((b+1)/2);
     }
+    else if (b = 4) {
+        console.log(2);
+    }
 }
 if (a%2 == 1) {
     console.log((a+1)/2);
