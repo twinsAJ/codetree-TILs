@@ -9,7 +9,7 @@ public class Main {
         if(m>=90 && f>=95){
             System.out.print(100000);
         }
-        if(m>=90 && f>=90){
+        else if(m>=90 && f>=90){
             System.out.print(50000);
         }
         else{
