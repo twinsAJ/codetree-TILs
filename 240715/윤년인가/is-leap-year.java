@@ -8,7 +8,7 @@ public class Main {
             if(y%100==0 && y%400>0){
                 System.out.print("false");
             }
-            System.out.print("true");
+            else{System.out.print("true");}
         }
         else{
             System.out.print("false");
